@@ -1,0 +1,192 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: relative;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #9BE8D8; 
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #03d2f2;
+    z-index: 1;
+    border-bottom: 1px solid dimgray;
+}
+
+nav ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 25px 0px 0px;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.kolom .sisipan {
+    padding: 0px 20px 0px 20px;
+}
+
+.kolom .deskripsi{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: dimgray;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: -25px;
+    color: gray;  
+    width: 100%; 
+    line-height: 50px;
+    margin-left: 25px;
+}
+
+h6 {
+    font-family: 'comic sans ms';
+    margin: 25px 90px 10px;
+    font-size: 15px;
+}
+
+a.tbl-biru {
+    background: #4477CE;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-home {
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    color: cadetblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-courses {
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    color: cadetblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-tutors {
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    color: cadetblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-contact {
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    color: cadetblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-partners {
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    color: cadetblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background:#EA1179;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #EA1179;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px 10px 25px;
+    padding: 20px 0px 0px 0px;
+}
+
+a.tbl-pink:hover{
+    background:#4477CE;
+    text-decoration: none;
+}
+
